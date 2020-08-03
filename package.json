@@ -1,0 +1,32 @@
+{
+  "name": "customurlshortenerservice",
+  "version": "1.0.0",
+  "description": "A simple url shortener service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js --exec babel-node"
+  },
+  "keywords": [
+    "Node",
+    "JavaScript",
+    "Express",
+    "MongoDB",
+    "Npm"
+  ],
+  "author": "saif <saif.pirjade@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  }
+}

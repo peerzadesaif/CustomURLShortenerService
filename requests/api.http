@@ -1,0 +1,6 @@
+POST http://localhost:3000/api/url/shorten
+Content-Type: application/json
+
+{
+  "longUrl": "https://www.google.com/search?q=images+with&rlz=1C5CHFA_enIN851IN851&sxsrf=ALeKk00eS0r8B9bdN4UxBFXmkJREFxIImQ:1596469284372&tbm=isch&source=iu&ictx=1&fir=_ipjDVCd7zojgM%252CF4i4w-8e-p-7yM%252C_&vet=1&usg=AI4_-kScVJc_GO___kGrcPZFhfsfmqm9jw&sa=X&ved=2ahUKEwjz09vEr__qAhV94jgGHUCBBi8Q9QEwAnoECAQQNA&biw=1440&bih=766#imgrc=_ipjDVCd7zojgM"
+}
